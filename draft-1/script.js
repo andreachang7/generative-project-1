@@ -68,7 +68,7 @@ function handleParticles(){
 
 function animate(){
     ctx.clearRect(0, 0, canvas.width, canvas.height); 
-    ctx.fillStyle = 'rgba(0,0,0,0.1)';
+    ctx.fillStyle = 'rgba(0,0,0,0.02)';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     handleParticles();
     hue+=0.5;
