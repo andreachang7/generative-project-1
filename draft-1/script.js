@@ -5,6 +5,11 @@ canvas.height = window.innerHeight;
 const particlesArray = [];
 let hue = 0;
 
+function changeBackground(color) {
+    document.body.style.background = color;
+ }
+window.addEventListener("load",function() { changeBackground('black') });
+
 window.addEventListener('resize', function(){
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
